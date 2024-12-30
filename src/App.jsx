@@ -5,7 +5,7 @@ import Brightness4OutlinedIcon from '@mui/icons-material/Brightness4Outlined';
 import { Allprojects } from "./Allprojects"
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
