@@ -37,6 +37,7 @@ export const Allprojects = [
     title: "Android App",
     projects: [
       { name: "Chirp", funding: "TBA", backers: "Sui", expectedTGE: "Q1 2025", joinLink: "https://play.google.com/store/apps/details?id=io.chirptoken.kage", refCode: "ae5a5b79" },
+      { name: "Xenea wallet", funding: "NA", backers: "NA", expectedTGE: "Q1 2025", joinLink: "https://xenea.app/register/15NbfWpl2G", refCode: "15NbfWpl2G" },
     ],
   },
 
