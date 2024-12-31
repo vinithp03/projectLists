@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <h1 className="font-effect">All Airdrop Projects (Crypto Catch YT)</h1>
+      <h1 className="font-effect">All Airdrop Projects</h1>
       <button className="theme-toggle" onClick={toggleTheme}>
         {isDarkMode ? <Brightness4RoundedIcon className='icon' /> : <Brightness4OutlinedIcon className='icon' />}
       </button>
