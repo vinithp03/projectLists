@@ -27,6 +27,7 @@ export const Allprojects = [
   {
     title: "Web testnet",
     projects: [
+      { name: "Rumble video sahring platform ", funding: "$775M", backers: "Tether(company behind USDT)", expectedTGE: "Q2-Q3 2025", joinLink: "https://rumble.com/register/cryptoCatch", refCode: "cryptoCatch" },
       { name: "Humanity protocol", funding: "$35M", backers: "Blockchain, Digital Identity, Privacy Technologies", expectedTGE: "Q1-Q2 2025", joinLink: "https://testnet.humanity.org/login?ref=vinithp03", refCode: "vinithp03" },
       { name: "Soneium testnet", funding: "_", backers: "Sony", expectedTGE: "Q2 2025", joinLink: "https://bridge.soneium.org/en/testnet", refCode: "N/A" },
       { name: "Hemi testnet", funding: "$15M", backers: "Binance Labs,Cypher Capital", expectedTGE: "Q2 2025", joinLink: "https://points.absinthe.network/hemi/d/dashboard", refCode: "N/A" },
