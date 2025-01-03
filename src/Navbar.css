@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: var(--bg-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar.dark {
+  background-color: #333;
+  color: white;
+}
+
+.navbar.light {
+  background-color: white;
+  color: black;
+}
+
+
+.navbar-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5vw;
+}
+
+.navbar-links .nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: inherit;
+}
+
+.navbar-links .nav-link:hover {
+  text-decoration: underline;
+}
+
+.theme-toggle {
+  cursor: pointer;
+}
+
+
+.navbar-logo img {
+  height: 50px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.navbar-logo {
+  display: flex;
+  gap: 1vw;
+}
+
+.navbar.dark .crypto {
+  color: #ff0000;
+}
+
+.navbar.light .crypto {
+  color: #ff0000;
+}
+
+.navbar.dark .catch {
+  color: #ffffff;
+}
+
+.navbar.light .catch {
+  color: #000000;
+}

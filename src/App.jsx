@@ -1,11 +1,10 @@
 import './App.css';
 import { useState } from 'react';
-import Brightness4RoundedIcon from '@mui/icons-material/Brightness4Rounded';
-import Brightness4OutlinedIcon from '@mui/icons-material/Brightness4Outlined';
-import { Allprojects } from "./Allprojects"
+import Navbar from './Navbar'; // Import the Navbar component
+import { Allprojects } from "./Allprojects";
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
@@ -13,11 +12,11 @@ function App() {
 
   return (
     <>
-      <h1 className="font-effect">All Airdrop Projects</h1>
-      <button className="theme-toggle" onClick={toggleTheme}>
-        {isDarkMode ? <Brightness4RoundedIcon className='icon' /> : <Brightness4OutlinedIcon className='icon' />}
-      </button>
+      <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
+
       <div className={`container ${isDarkMode ? 'dark' : 'light'}`}>
+        <h1 className="font-effect" style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold', fontSize: '25px', color: isDarkMode ? 'rgb(140, 255, 0)' : 'white' }}>Airdrop Directory</h1>
+
         {Allprojects.map((project, index) => (
           <section key={index}>
             <h3>{project.title}</h3>
@@ -37,7 +36,6 @@ function App() {
                       <a href={item.joinLink} target="_blank" rel="noopener noreferrer">
                         <button className="join-btn">Join Here</button>
                       </a>
-                      {/* Dynamically display the referral code */}
                       {item.refCode !== "N/A" && (
                         <div className="ref-code">Ref Code: {item.refCode}</div>
                       )}
@@ -51,7 +49,22 @@ function App() {
             </div>
           </section>
         ))}
-        <p style={{ color: "red" }}>Note: There might be slight change in info about projects </p>
+
+        {/* Note and Terminology Section */}
+        <footer>
+          <div className="footer-content">
+            <div className="note">
+              <p><strong>Note:</strong> Some information may vary slightly compared to other platforms.</p>
+            </div>
+            <div className="terminologies">
+              <p><strong>Terminologies:</strong></p>
+              <ul>
+                <li><strong>TBA</strong> - To be announced</li>
+                <li><strong>NOA</strong> - Not officially announced</li>
+              </ul>
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   );

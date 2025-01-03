@@ -9,10 +9,19 @@ export const Allprojects = [
       { name: "UXUY Wallet", funding: "$10M", backers: "Binance Labs, Bixin Ventures, Matrix Partners", expectedTGE: "Q1 2025", joinLink: "https://t.me/UXUYbot/app?startapp=A_5156288114_inviteEarn", refCode: "N/A" },
       { name: "Vooi app", funding: "TBA", backers: "Binance Labs...", expectedTGE: "Q1 2025", joinLink: "https://t.me/VooiAppBot/vooi?startapp=frenIDzkxkX2q", refCode: "N/A" },
       {
-        name: "Birds", funding: "TBA", backers: "Sui", expectedTGE: "Q1 2025", joinLink: "https://t.me/birdx2_bot/birdx?startapp=5156288114", refCode: "N/A"
+        name: "Birds", funding: "NOA", backers: "Sui", expectedTGE: "Q1 2025", joinLink: "https://t.me/birdx2_bot/birdx?startapp=5156288114", refCode: "N/A"
+      },
+      {
+        name: "Zoo", funding: "NOA", backers: "X-Empire", expectedTGE: "Q1 2025", joinLink: "t.me/zoo_story_bot/game?startapp=ref5156288114", refCode: "N/A"
+      },
+      {
+        name: "Unite", funding: "$3M", backers: "Coinbase ventures,OKX ventures ,Solana ventures", expectedTGE: "Q2 2025", joinLink: "https://t.me/unite_io_bot/Llamas?startapp=ref_fbfgciibbe", refCode: "N/A"
       },
     ],
-  }, {
+  },
+
+
+  {
     title: "DePIN projects",
     projects: [
       { name: "Grass", funding: "$5M", backers: "HackVC", expectedTGE: "Q1 2025", joinLink: "https://app.getgrass.io/register?referralCode=uMm14UCminsTwxu", refCode: "uMm14UCminsTwxu" },
@@ -22,23 +31,31 @@ export const Allprojects = [
       { name: "Gradient Network", funding: "TBA", backers: "TBA", expectedTGE: "Q2-Q3 2025", joinLink: "https://app.gradient.network/dashboard", refCode: "4WP5EI" },
       { name: "OpenLoop Network", funding: "$15M", backers: "HackVC", expectedTGE: "Q2-Q3 2025", joinLink: "https://openloop.so/auth/register?ref=ol220ace48", refCode: "ol220ace48" },
       { name: "BlockMesh Network", funding: "$65M", backers: "M31 Capital, Fractis", expectedTGE: "Q2 2025", joinLink: "https://openloop.so/auth/register?ref=ol220ace48", refCode: "ol220ace48" },
+      { name: "MeshChain", funding: "NOA", backers: "NOA", expectedTGE: "Q2 2025", joinLink: "https://app.meshchain.ai?ref=W113AS39R9P7", refCode: "W113AS39R9P7" },
+      { name: "Pipe Network", funding: "NOA", backers: "NOA", expectedTGE: "Q2-Q3 2025", joinLink: "https://pipecdn.app/", refCode: "N/A" },
     ],
   },
+
+
   {
     title: "Web testnet",
     projects: [
-      { name: "Rumble video sahring platform ", funding: "$775M", backers: "Tether(company behind USDT)", expectedTGE: "Q2-Q3 2025", joinLink: "https://rumble.com/register/cryptoCatch", refCode: "cryptoCatch" },
+      { name: "Rumble video sharing platform ", funding: "$775M", backers: "Tether(company behind USDT)", expectedTGE: "Q2-Q3 2025", joinLink: "https://rumble.com/register/cryptoCatch", refCode: "cryptoCatch" },
       { name: "Humanity protocol", funding: "$35M", backers: "Blockchain, Digital Identity, Privacy Technologies", expectedTGE: "Q1-Q2 2025", joinLink: "https://testnet.humanity.org/login?ref=vinithp03", refCode: "vinithp03" },
       { name: "Soneium testnet", funding: "_", backers: "Sony", expectedTGE: "Q2 2025", joinLink: "https://bridge.soneium.org/en/testnet", refCode: "N/A" },
       { name: "Hemi testnet", funding: "$15M", backers: "Binance Labs,Cypher Capital", expectedTGE: "Q2 2025", joinLink: "https://points.absinthe.network/hemi/d/dashboard", refCode: "N/A" },
       { name: "Chainbase Genesis", funding: "$16.5M", backers: "M31 Capital, NGC Ventures, Interop, and Frachtis", expectedTGE: "Q2 2025", joinLink: "https://genesis.chainbase.com/referral?referral_code=OXVS40JL8", refCode: "OXVS40JL8" },
+      { name: "Zen Chain", funding: "$200M", backers: "Jun capital, The Gem and others", expectedTGE: "Q2 2025", joinLink: "https://zenquest.zenchain.io?referral=5wPBWa1ZwNMZqUBpDRSiARmTv-C3yYJwk3mn7mVMnyc", refCode: "N/A" },
     ],
   },
+
+
+
   {
     title: "Android App",
     projects: [
       { name: "Chirp", funding: "TBA", backers: "Sui", expectedTGE: "Q1 2025", joinLink: "https://play.google.com/store/apps/details?id=io.chirptoken.kage", refCode: "ae5a5b79" },
-      { name: "Xenea wallet", funding: "NA", backers: "NA", expectedTGE: "Q1 2025", joinLink: "https://xenea.app/register/15NbfWpl2G", refCode: "15NbfWpl2G" },
+      { name: "Xenea wallet", funding: "NOA", backers: "Xenea", expectedTGE: "Q1 2025", joinLink: "https://xenea.app/register/15NbfWpl2G", refCode: "15NbfWpl2G" },
     ],
   },
 

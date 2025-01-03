@@ -13,15 +13,6 @@ body {
   transition: all 0.3s ease;
 }
 
-.icon {
-  background-color: rgb(0, 0, 0);
-}
-
-.font-effect {
-  font-size: 25px;
-}
-
-/* Theme Variables */
 :root {
   --primary-text-color: rgb(140, 255, 0);
   --background-color: rgb(0, 0, 0);
@@ -144,15 +135,6 @@ button.join-btn:hover {
   background-color: var(--button-hover-color);
 }
 
-.theme-toggle {
-  color: white;
-  cursor: pointer;
-  margin-bottom: 2rem;
-  background-color: rgb(0, 0, 0);
-  border: none;
-}
-
-/* Show message to mobile users */
 @media (max-width: 768px) {
   body::after {
     content: "Please turn on desktop mode";
@@ -205,4 +187,41 @@ button.join-btn:hover {
   color: #666;
   margin-top: 5px;
   text-align: center;
+}
+
+.navbar-logo h2 {
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note,
+.terminologies {
+  font-size: 14px;
+  color: #666;
+  margin-right: 20px;
+}
+
+.terminologies ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.terminologies li {
+  margin-bottom: 5px;
+}
+
+.terminologies strong {
+  color: #333;
 }
