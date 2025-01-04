@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import Navbar from './Navbar'; // Import the Navbar component
+import Navbar from './Navbar';
 import { Allprojects } from "./Allprojects";
 
 function App() {
@@ -31,7 +31,14 @@ function App() {
               <div className="table-body">
                 {project.projects.map((item, idx) => (
                   <div key={idx} className="table-row">
-                    <div className="table-cell project-item grass">{item.name}</div>
+                    <div className="table-cell project-item">
+                      <img
+                        src={item.logo}
+                        alt={`${item.name} logo`}
+                        className="project-logo"
+                      />
+                      <span className='table-cell project-item grass'>{item.name}</span>
+                    </div>
                     <div className="table-cell">
                       <a href={item.joinLink} target="_blank" rel="noopener noreferrer">
                         <button className="join-btn">Join Here</button>
