@@ -3,6 +3,15 @@ export const Allprojects = [
     title: "Telegram bots",
     projects: [
       {
+        name: "Sigma",
+        funding: "$4.2M",
+        backers: "Not officially mentioned",
+        expectedTGE: "Q2",
+        joinLink: "https://t.me/sigmatonbot/app?startapp=ref_2d9x5de",
+        refCode: "N/A",
+        logo: "projectLogo/sigma-logo.png",
+      },
+      {
         name: "Hivera",
         funding: "$7M",
         backers: "IPN Foundation, TON Incubator",
