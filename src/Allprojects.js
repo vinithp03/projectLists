@@ -1,5 +1,28 @@
 export const Allprojects = [
   {
+    title: "Android App",
+    projects: [
+      {
+        name: "Xenea wallet",
+        funding: "NOA",
+        backers: "Xenea",
+        expectedTGE: "Q1 2025",
+        joinLink: "https://xenea.app/register/15NbfWpl2G",
+        refCode: "15NbfWpl2G",
+        logo: "projectLogo/xenea-logo.png",
+      },
+      {
+        name: "Chirp",
+        funding: "TBA",
+        backers: "Sui Foundation",
+        expectedTGE: "Q2-Q3 2025",
+        joinLink: "https://chirp.app/referral-code=vinith103",
+        refCode: "vinith103",
+        logo: "projectLogo/chirp-logo.png",
+      },
+    ],
+  },
+  {
     title: "Telegram bots",
     projects: [
       {
@@ -220,30 +243,6 @@ export const Allprojects = [
         joinLink: "https://zenquest.zenchain.io?referral=5wPBWa1ZwNMZqUBpDRSiARmTv-C3yYJwk3mn7mVMnyc",
         refCode: "N/A",
         logo: "projectLogo/zenchain-logo.png",
-      },
-    ],
-  },
-
-  {
-    title: "Android App",
-    projects: [
-      {
-        name: "Chirp",
-        funding: "TBA",
-        backers: "Sui Foundation",
-        expectedTGE: "Q2-Q3 2025",
-        joinLink: "https://chirp.app/referral-code=vinith103",
-        refCode: "vinith103",
-        logo: "projectLogo/chirp-logo.png",
-      },
-      {
-        name: "Xenea wallet",
-        funding: "NOA",
-        backers: "Xenea",
-        expectedTGE: "Q1 2025",
-        joinLink: "https://xenea.app/register/15NbfWpl2G",
-        refCode: "15NbfWpl2G",
-        logo: "projectLogo/xenea-logo.png",
       },
     ],
   },
