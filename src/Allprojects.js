@@ -191,6 +191,15 @@ export const Allprojects = [
     title: "Web testnet",
     projects: [
       {
+        name: "Open Ledger",
+        funding: "$8M",
+        backers: "Hashkey capital,Polychain capital and other",
+        expectedTGE: "Q2-Q3 2025",
+        joinLink: "https://testnet.openledger.xyz/?referral_code=7hor44g5hi",
+        refCode: "7hor44g5hi",
+        logo: "projectLogo/openldger-logo.png",
+      },
+      {
         name: "Rumble video sharing platform",
         funding: "$775M",
         backers: "Tether(company behind USDT)",

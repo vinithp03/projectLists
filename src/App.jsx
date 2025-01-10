@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import { Allprojects } from "./Allprojects";
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
