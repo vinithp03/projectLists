@@ -197,7 +197,7 @@ export const Allprojects = [
         expectedTGE: "Q2-Q3 2025",
         joinLink: "https://testnet.openledger.xyz/?referral_code=7hor44g5hi",
         refCode: "7hor44g5hi",
-        logo: "projectLogo/openldger-logo.png",
+        logo: "projectLogo/openledger-logo.png",
       },
       {
         name: "Rumble video sharing platform",
